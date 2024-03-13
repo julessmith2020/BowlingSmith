@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: auto; /* Change to auto or adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #333;
+}
+
+.Bruh,
+.Bruh h1 {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 15px 0; /* Padding at the top and bottom */
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 0.8;
+  text-align: right;
+}
+
+.logo-container {
+  margin-left: auto; /* Align logo to the right */
+}
+
+.logo {
+  width: 70px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+/* table styling */
+.cool-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Raleway', sans-serif;
+  background-color: #49704b; /* Green background color */
+  border-radius: 10px;
+}
+
+.cool-table th,
+.cool-table td {
+  border: 1px solid #fff; /* White border color */
+  padding: 8px; /* Padding inside cells */
+  color: #fff; /* White text color */
+}
+
+.cool-table th {
+  background-color: #333; /* Header background color */
+  text-align: center; /* Header text alignment */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Alternating row colors */
+.cool-table tbody tr:nth-child(odd) {
+  background-color: #49704b; /* Darker shade of green for odd rows */
+}
+
+.cool-table tbody tr:nth-child(even) {
+  background-color: #6d916f; /* Lighter shade of green for even rows */
+}
